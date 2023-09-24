@@ -1,0 +1,9 @@
+#!/bin/bash
+# creating user directory amd check memory
+
+echo "creating user now"
+
+
+useradd abraham
+mkdir /tmp/script
+free -m
